@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello!
+          <h1 className="App-title">Welcome to React</h1>
         </p>
         <a
           className="App-link"
@@ -19,6 +19,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <p className="App-intro">
+      I was changed on the Feature branch</p>
     </div>
   );
 }
